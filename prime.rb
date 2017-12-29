@@ -4,14 +4,14 @@ def prime? (prime)
     return True
   elsif prime == 3
     return True
-  elsif prime % 2 == 0:
+  elsif prime % 2 == 0
     return False
-  elsif prime % 3 == 0:
+  elsif prime % 3 == 0
     return False
   else
     i = 5
     w = 2
-    while i * i <= prime:
+    while i * i <= prime
       if n % i == 0
         return False
       else
