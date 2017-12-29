@@ -5,15 +5,15 @@ def prime? (prime)
   elsif prime == 3
     return TRUE
   elsif prime % 2 == 0
-    return False
+    return FALSE
   elsif prime % 3 == 0
-    return False
+    return FALSE
   else
     i = 5
     w = 2
     while i * i <= prime
       if n % i == 0
-        return False
+        return FALSE
       else
           i += w
           w = 6 - w
