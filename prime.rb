@@ -21,3 +21,4 @@ def prime? (prime)
 
       return True
 end
+end
