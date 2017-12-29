@@ -1,9 +1,9 @@
 # Add  code here!
 def prime? (prime)
   if prime == 2
-    return 
+    return TRUE
   elsif prime == 3
-    return True
+    return TRUE
   elsif prime % 2 == 0
     return False
   elsif prime % 3 == 0
