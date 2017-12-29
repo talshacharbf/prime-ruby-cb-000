@@ -1,13 +1,13 @@
 # Add  code here!
 def prime? (prime)
   if prime == 2
-    return TRUE
+    return
   elsif prime == 3
-    return TRUE
+    return
   elsif prime % 2 == 0
-    return FALSE
+    return
   elsif prime % 3 == 0
-    return FALSE
+    return
   else
     i = 5
     w = 2
