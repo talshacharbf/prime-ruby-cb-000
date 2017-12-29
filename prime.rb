@@ -9,16 +9,15 @@ def prime? (prime)
   elsif prime % 3 == 0:
     return False
   else
-      i = 5
-      w = 2
-
-      while i * i <= prime:
-          if n % i == 0:
-              return False
-
+    i = 5
+    w = 2
+    while i * i <= prime:
+      if n % i == 0
+        return False
+      else
           i += w
           w = 6 - w
-
       return True
+end
 end
 end
