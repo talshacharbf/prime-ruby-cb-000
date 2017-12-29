@@ -17,7 +17,7 @@ def prime? (prime)
       else
           i += w
           w = 6 - w
-      return True
+      return TRUE
       end
     end
   end
